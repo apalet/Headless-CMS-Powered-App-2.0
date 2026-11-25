@@ -1,0 +1,36 @@
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+
+  /* Cool slate-gray background for the entire application. */
+  background-color: #e8eef4;
+  color: #1c1c1c;
+
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* Include padding and borders in element width and height calculations. */
+* {
+  box-sizing: border-box;
+}
+
+/* Global link styles. */
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive image sizing. */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 3rem;
+}
